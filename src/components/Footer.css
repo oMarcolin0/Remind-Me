@@ -1,0 +1,17 @@
+:root{
+  --primary-color: #20B2AA;
+  --secondary-color: #008B8B;
+  --secondary--hover:#008b8bee;
+  --background-color: #E0FFFF;
+  --text-dark: #222;
+  --text-light: #555;
+  --back-white: #ddd;
+}
+
+/* FOOTER */
+.footer {
+  margin-top: 3rem;
+  padding: 1rem;
+  text-align: center;
+  color: var(--back-white);
+}
