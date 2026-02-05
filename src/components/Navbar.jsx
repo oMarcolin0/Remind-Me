@@ -11,7 +11,7 @@ export default function Navbar() {
             alt="Logo ReminderMe" 
             className="max-w-[80px] h-auto"
           />
-          <h1 className="text-2xl font-bold">Remind<span className="text-[#008B8B]">Me</span></h1>
+          <h1 className="text-2xl font-bold">Remind<span className="text-[#008f8B]">Me</span></h1>
         </div>
 
         <ul className="flex gap-8 text-lg font-medium">
