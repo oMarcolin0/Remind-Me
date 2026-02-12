@@ -1,7 +1,10 @@
 import React from "react";
 import logoImage from "../assets/logo.png";
+import { useNavigate } from "react-router-dom";
 
 export default function Navbar() {
+
+  const navigate = useNavigate();
   return (
     <nav className="sticky   top-0 z-90 bg-[#008B8B] text-white shadow-md">
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
@@ -18,12 +21,12 @@ export default function Navbar() {
           <li><a href="#home" className="hover:text-[#20B2AA] transition">Home</a></li>
           <li><a href="#sobre" className="hover:text-[#20B2AA] transition">Sobre</a></li>
           <li>
-            <a
-              href="/login"
+            <button
+              onClick={()=> navigate("/login")}
               className="bg-[#20B2AA] px-4 py-2 rounded-lg hover:bg-[#28c4ba] transition"
             >
               Entrar
-            </a>
+            </button>
           </li>
         </ul>
       </div>
